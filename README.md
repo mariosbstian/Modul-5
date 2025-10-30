@@ -3,7 +3,7 @@
 
 ## Dasar Teori
 
-Kode ini digunakan untuk mengimplementasikan struktur data Singly Linked List dalam bahasa C++. Program ini terdiri dari tiga file utama, yaitu Singlylist.h, Singlylist.cpp, dan main.cpp. Setiap elemen pada list (disebut node) memiliki dua bagian, yaitu info yang menyimpan data dan next yang menunjuk ke elemen berikutnya. Dengan memanfaatkan alokasi memori dinamis menggunakan new, ukuran list dapat menyesuaikan kebutuhan program tanpa batasan seperti pada array. Fungsi-fungsi yang digunakan, seperti createList, alokasi, dealokasi, insertFirst, printInfo, findElm, dan totalInfo, membantu dalam membuat list baru, menambahkan data, menampilkan isi, mencari elemen, hingga menghitung total nilai yang tersimpan. Struktur data ini lebih fleksibel dibandingkan array karena tidak memerlukan penggeseran data saat ada perubahan, meskipun pencarian data dilakukan secara berurutan. Secara keseluruhan, kode ini menggambarkan penerapan konsep dasar pengelolaan memori dinamis dan struktur data linier yang sering digunakan dalam pengembangan perangkat lunak modern (Acharjya, Koley, & Barman, 2022; Hussain, Pandya, & Chakravarty, 2024; Mbejo, Nopa, Putri, & Risky, 2025).
+Program ini menggunakan konsep Singly Linked List dalam bahasa C++ untuk mengelola data secara dinamis dengan bantuan pointer. Melalui beberapa fungsi seperti insert, delete, update, dan search, program dapat menambah, menghapus, dan mencari data tanpa batasan ukuran seperti pada array. File listBuah.cpp dan mainListBuah.cpp digunakan untuk mengolah dan menguji data buah, sedangkan Singlylist.cpp dan Singlylist.h berisi versi sederhana dengan data bertipe integer. Secara keseluruhan, program ini menunjukkan cara kerja memori dinamis yang efisien dan fleksibel menggunakan struktur linked list (Anggraini et al., 2024; Mbejo et al., 2025; Wijaya et al., 2018).
 
 ## Guided 
 
@@ -577,13 +577,14 @@ int main() {
 <img width="1017" height="240" alt="image" src="https://github.com/user-attachments/assets/efaba401-f260-42d2-b64d-b3bcd16d5e56" />
 
 Kode diatas adalah program utama main.cpp yang berfungsi untuk menguji dan menjalankan semua fungsi dari file Singlylist.h dan Singlylist.cpp. Program ini digunakan untuk membuat dan mengelola list, termasuk menambahkan data, menampilkan isi list, mencari nilai tertentu, serta menghitung total data dalam struktur Singly Linked List.
+
 #### Full code Screenshot:
 <img width="752" height="596" alt="image" src="https://github.com/user-attachments/assets/d8a39727-3461-4fc4-8343-9f93df62e846" />
 
 ## Kesimpulan
-Secara keseluruhan, seluruh kode menunjukkan pentingnya pemahaman tentang struktur data, pointer, dan manajemen memori dinamis dalam membangun program yang efisien dan fleksibel. Penerapan konsep Singly Linked List dengan pendekatan modular melalui pemisahan file header, implementasi, dan main membuat kode lebih terstruktur serta mudah dipelihara. Sejalan dengan Acharjya, Koley, dan Barman (2022), serta Hussain, Pandya, dan Chakravarty (2024), penerapan struktur data seperti linked list membantu mahasiswa memahami konsep dasar penyimpanan dan pengelolaan data secara dinamis, sekaligus meningkatkan kemampuan analisis dan problem solving dalam pemrograman.
+Dari hasil implementasi yang dilakukan, bisa disimpulkan bahwa penggunaan Singly Linked List pada bahasa C++ membuat pengelolaan data menjadi lebih mudah, fleksibel, dan efisien dibandingkan dengan array yang ukurannya tetap. Dengan berbagai fungsi yang ada, program dapat menambah, menghapus, mengubah, serta mencari data langsung di memori tanpa batasan jumlah elemen. File listBuah.cpp dan mainListBuah.cpp berfungsi untuk mengelola data buah secara dinamis, sedangkan Singlylist.cpp dan Singlylist.h merupakan versi sederhana yang menggunakan data berupa angka. Secara keseluruhan, program ini menunjukkan bagaimana konsep struktur data dinamis dan penggunaan pointer dapat membantu dalam pengelolaan memori secara efektif di pemrograman C++.
 
 ## Referensi
-[1] Acharjya, P. P., Koley, S., & Barman, S. (2022). Analysis of the complexity of various linked lists.
-[2] Hussain, M. A., Pandya, J., & Chakravarty, P. (2024). Impact of time complexity using array and linked list in data structure.
-[3] Mbejo, M. T., Nopa, L. A., Putri, J. S., & Risky, M. (2025). Analisis struktur data linked list dalam pengolahan data mahasiswa.
+[1] Anggraini, Y. N., Zulfi, M. F., Butarbutar, L. E., & Rajagukguk, G. (2024). 
+[2] Mbejo, M. T., Nopa, L. A., Saftina Putri, J., & Risky, M. (2025).
+[3] Wijaya, H., Wardhono, W. S., & Arwani, I. (2018). 
